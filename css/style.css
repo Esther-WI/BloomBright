@@ -21,3 +21,28 @@ nav ul {display: flex;
     padding:10px 20px;
 }
 
+
+.content {
+    position:absolute;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 70px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.content a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid#fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.content a:hover{
+    background-color: palevioletred;
+    color: black;
+}

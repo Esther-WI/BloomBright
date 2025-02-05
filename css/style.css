@@ -1,0 +1,23 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+nav ul {display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content:flex-end;
+    padding:10px 20px;
+}
+

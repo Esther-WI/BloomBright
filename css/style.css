@@ -72,7 +72,7 @@ nav ul li{
     background-color:whitesmoke;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+    z-index: 100;
     overflow: hidden;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -105,7 +105,7 @@ nav ul li{
 }
 
 
-contact-form:before{
+.contact-form:before{
     content: "";
     position: absolute;
     width: 26px;
@@ -150,9 +150,10 @@ textarea.input{
 }
 
 .btn{
+    display: block;
     padding: 0.6rem;
     background-color: #000;
-    border: #faf;
+    border: none;
     font-size: 0.95rem;
     color: pink;
     line-height: 1;
@@ -160,6 +161,8 @@ textarea.input{
     outline: none;
     cursor: pointer;
     transition: 0.3s;
+    z-index: 1000;
+    width: 100%;
 }
 
 .btn:hover{

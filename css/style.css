@@ -46,7 +46,7 @@ nav ul li{
     min-height: 100vh;
     padding: 2rem;
     background-image: url("../images/backgroundcontact.jpeg");
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +60,7 @@ nav ul li{
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
     z-index: 100;
-    overflow: hidden;
+    overflow: visiblegit;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -139,10 +139,10 @@ textarea.input{
 .btn{
     display: block;
     padding: 0.6rem;
-    background-color:palevioletred;
+    background-color:black;
     border: none;
     font-size: 0.95rem;
-    color: pink;
+    color: black;
     line-height: 1;
     border-radius: 25px;
     outline: none;
@@ -264,6 +264,7 @@ section {
 
 /* Button Styles */
 .btn {
+    display: block;
     padding: 10px 20px;
     background-color: #FF6F61; /* Coral background */
     color: white;
@@ -271,6 +272,9 @@ section {
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
 }
 
 .btn:hover {

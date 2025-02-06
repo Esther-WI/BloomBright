@@ -299,3 +299,45 @@ section {
 .index{
     background-image:url(../images/backgroundcontact.jpeg) ;
 }
+
+
+
+
+.section-1 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+img {
+    width: 200px;
+}
+
+.section-2 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.section-3 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.section-4 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+.index2{
+    background-image: url(../images/backgroundcontact.jpeg);
+}

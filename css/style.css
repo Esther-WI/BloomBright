@@ -85,6 +85,8 @@ nav ul li{
 }
 
 .circle{
+    height: 100%;
+    width: 100%;
     border-radius:50%;
     background: linear-gradient(135deg, transparent 20%, pink);
     position: absolute;
@@ -104,7 +106,8 @@ nav ul li{
     right: 30px;
 }
 
-.contact-form:before{
+
+contact-form:before{
     content: "";
     position: absolute;
     width: 26px;
@@ -114,4 +117,45 @@ nav ul li{
     top: 50px;
     left: -13px;
 
+}
+
+.input-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+
+title{
+    color: #000;
+    font-weight: 800;
+}
+.contact-form.input{
+    width: 100%;
+    outline:none;
+    border: 2px solid #000;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #000;
+    font-weight: 500;
+    font-size:0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+}
+.input-container .input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 14px;
+    color: black;
+    transition: 0.3s;
 }

@@ -1,5 +1,5 @@
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 *{
@@ -152,7 +152,7 @@ textarea.input{
 .btn{
     display: block;
     padding: 0.6rem;
-    background-color: #000;
+    background-color:palevioletred;
     border: none;
     font-size: 0.95rem;
     color: pink;
@@ -167,5 +167,14 @@ textarea.input{
 
 .btn:hover{
     background-color: transparent;
-    color: #000;
+    color: black;
+}
+
+.logo{
+  height: 100px;
+    width: 300px;
+}
+
+.index{
+    background-image: url(../images/backgroundcontact.jpeg);
 }

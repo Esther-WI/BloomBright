@@ -39,19 +39,6 @@ nav ul li{
     color: black;
 }
 
-.content a{
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    border: 2px solid plum;
-    padding: 10px 15px;
-    border-radius: 25px;
-    transition: 0.3s;
-}
-.content a:hover{
-    background-color: palevioletred;
-    color: black;
-}
 
 .container{
     position: relative;
@@ -170,11 +157,141 @@ textarea.input{
     color: black;
 }
 
-.logo{
-  height: 100px;
-    width: 300px;
+header {
+    background-color: #FF6F61; /* Soft coral color */
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.index{
-    background-image: url(../images/backgroundcontact.jpeg);
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* White text for contrast */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF9A8B; /* Lighter coral on hover */
+}
+
+/* Logo Styles */
+.logo {
+    display: block;
+    margin: 20px auto;
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px; /* Centered with max width */
+}
+
+/* Content Section */
+.content {
+    margin: 20px 0;
+}
+
+.content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6F61; /* Coral background */
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.content a:hover {
+    background-color: #FF9A8B; /* Lighter coral on hover */
+}
+
+/* Testimonials Styles */
+.testimonials {
+    background-color: #fff; /* White background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px; /* Centered with max width */
+}
+
+.testimonials h2 {
+    color: #FF6F61; /* Coral color for headings */
+}
+
+.testimonials p {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.testimonials p li {
+    background-color: #f0f0f0; /* Light gray background for testimonials */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background-color: #FF6F61; /* Coral background */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #FF9A8B; /* Lighter coral on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
